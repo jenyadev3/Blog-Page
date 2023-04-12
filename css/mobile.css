@@ -1,0 +1,419 @@
+/* ШАПКА */
+
+@media (min-width:641px) and (max-width:1199px){
+  .site-header {
+    background-image: url("../images/banner-bg-tablet.jpg");
+  }
+
+  .header-wrap {
+    width: 91.2%;
+    padding-top: 42px;
+  }
+
+  .logo {
+    padding-left: 7px;
+  }
+
+  .logo img{
+    width: 158px;
+    height: 36px;
+  }
+
+  .menu-list {
+    display:none;
+  }
+
+  .burger-menu {
+    display: block;
+    fill: white;
+  }
+ 
+  .site-title {
+    width: 630px;
+    padding: 92px 8px 113px 0px;
+    font-size: 40px;
+    line-height: 55px;
+  }
+}
+
+@media (min-width:320px) and (max-width:640px) {
+  .site-header {
+    background-image: url("../images/banner-mobile.jpg");
+  }
+
+  .header-wrap {
+    width: 92%;
+    flex-direction: column;
+  }
+
+  .logo {
+    padding-top: 180px;
+  }
+
+  .logo img {
+    width: 300px;
+    height: 60px;
+  }
+
+  .menu-list {
+    display:none;
+  }
+
+  .burger-menu {
+    order: -1;
+    display: block;
+    margin-left: auto;
+    fill: white;
+  }
+   
+  .site-title {
+    width: 286px;
+    padding: 33px 0 209px 0;
+    font-size: 26px;
+    line-height: 36px;
+  }
+
+}
+
+/* СЕЙЧАС В ТРЕНДЕ */
+
+@media (min-width:641px) and (max-width:1200px) {
+  .trends-title {
+    padding: 45px 0 17px 0px;
+    font-size: 18px;
+    line-height: 29px;    
+  } 
+
+  .trends-subtitle {
+    padding-top: 5px;
+    font-size: 17px;
+    line-height: 22px;  
+ }
+}
+
+@media (min-width:641px) and (max-width:1200px) and (orientation:portrait) {
+  .trends-card {
+    width: 49.61%; 
+    min-height: 246px;
+  }
+}
+
+@media (min-width:641px) and (max-width:1200px) and (orientation:landscape) {
+  .trends-card {
+    width: 24.7%;
+    min-height: 246px;
+  }
+
+  .trends-subtitle {
+    font-size: 15px;
+  }
+}
+
+@media (min-width:320px) and (max-width:640px) {
+  .trends-card {
+    margin-bottom: 3px;
+  }
+
+  .trends-info {
+   padding-left: 17px;
+  }
+
+  .trends-title {
+    padding: 37px 0 23px 0px;
+    font-size: 16px;
+  }
+
+  .trends-subtitle {
+    font-size: 15px;
+  } 
+}
+
+@media (min-width:320px) and (max-width:640px) and (orientation:portrait)  {
+  .trends-card {
+    width: 100%;
+    min-height: 230px;  
+  }
+}
+
+@media (min-width:320px) and (max-width:640px) and (orientation:landscape) {
+  .trends-card {
+    width: 100%;
+    min-height: 230px;
+  }  
+}
+
+/*СТАТЬИ*/
+@media (min-width:1200px) and (max-width:1500px) {
+  .content-wrap {
+    width: 91.2%;
+}
+}
+
+@media (min-width:641px) and (max-width:1199px) {
+  .content-wrap {
+    width: 91.2%;
+    padding: 45px 0 40px 0;
+  }
+
+  .main-posts-list {
+    width: 56%;
+  }
+
+  .article {
+    flex-direction: column;
+    border-bottom: 2px solid rgba(0,0,0, 0.2); 
+  }
+
+  .article:not(:last-child) {
+    margin-bottom: 40px;
+  }
+
+  .article-img {
+    width: 100%;
+    height:auto;
+  }
+
+  .article-text-column {
+    padding-left: 0;
+    padding-top: 13px;
+  }
+
+  .article-title {
+    width: 94%;
+    font-size: 17px;
+  }
+
+  .article-content {
+    padding-top: 0px;
+ }
+}
+
+@media (min-width:320px) and (max-width:640px) {
+  .content-wrap {
+    width: 92%;
+    padding-bottom: 5px;
+    padding-top: 35px;
+    flex-direction: column;
+  }
+
+  .main-posts-list {
+    width: 100%;
+    padding-top: 5px;
+  }
+
+  .article {
+    flex-direction: column;
+    border-bottom: 2px solid rgba(0,0,0, 0.2);
+  }
+
+  .article:not(:last-child) {
+    margin-bottom: 30px;
+  }
+
+  .article-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .article-text-column {
+    padding-left: 0;
+    padding-top: 10px;
+  }
+
+  .article-title {
+    width: 97%;
+    padding-bottom: 5px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .article-content {
+    width: 100%;
+    margin-top: -33px;
+    padding-bottom: 8px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+/* КОНТЕНТ СБОКУ */
+
+@media (min-width:641px) and (max-width:1199px) {
+  .sidebar {
+    width: 39%;
+  }
+}
+
+@media (min-width:320px) and (max-width:640px) {
+  .sidebar {
+    width: 100%;
+  }
+
+  .sidebar-title {
+    padding-top: 30px;
+    font-size: 16px;
+    line-height: 29px;  
+  }
+
+  .search {
+    padding-bottom: 0px;
+  }
+
+  .subscription {
+    padding-bottom: 0px; 
+  }
+
+  .subscription-button {
+   margin-bottom: 5px;
+  }
+
+  .tags-list {
+    padding-bottom: 0px; 
+  }
+
+
+}
+
+/* НАШИ ИЗДЕЛИЯ */
+
+@media (min-width:641px) and (max-width:1199px) {
+  .catalog {
+    padding-bottom: 50px;
+  }
+
+  .catalog-title {
+    font-size: 18px;
+    line-height: 29px;
+  }
+
+  .catalog-list {
+    width: 91.02%;
+    padding-top: 30px;
+    gap: 4%;
+  }
+
+  .catalog-item {
+    width: 48%;
+  }
+
+  .catalog-img-block {
+    width: 87%;
+    margin: 0 auto;
+  }
+
+  .catalog-img {
+    height: auto;
+  }
+
+  .catalog-info-block {
+    padding-top: 47px;
+    min-height: 265px;
+  }
+
+  .catalog-item:nth-child(3) .catalog-info-block{
+    min-height: 240px;
+  }
+
+  .catalog-subtitle {
+    font-size: 18px;
+  }
+
+  .buy-link {
+    margin-right: 10px;
+  }
+}
+
+@media (min-width:320px) and (max-width:640px) {
+  .catalog {
+    padding-bottom: 90px;
+  }
+
+  .catalog-list {
+    width: 92%;
+    padding-top: 30px;
+  }
+
+  .catalog-title {
+    padding-top: 30px;
+    font-size: 16px;
+  }
+
+  .catalog-item {
+    width: 100%;
+  }
+
+  .catalog-img-block {
+    width:87%;
+    margin: 0 auto;
+  }
+
+  .catalog-img {
+    height: auto;
+  }
+
+  .catalog-info-block {
+    min-height: 217px;
+  } 
+
+  .catalog-subtitle {
+    font-size: 17px;
+    line-height: 22px;
+  }
+}
+
+/* ПОДВАЛ */
+@media (min-width:641px) and (max-width:1199px) {
+  .footer-wrap {
+    width: 91.02%;
+  }
+
+  .copyrights {
+    padding-top: 30px;
+  }
+}
+
+@media (min-width:320px) and (max-width:640px) {
+  .footer-wrap {
+    width: 92%;
+  }
+
+  .social-list {
+    padding-top: 40px;
+  }
+
+  .copyrights {
+    padding-top: 27px;
+  }
+}
+
+/* МОДАЛЬНОЕ ОКНО */
+
+@media (min-width:641px) and (max-width:1199px) {
+  .close-button {
+    width: 30px;
+    height: 30px;
+    top: -35px;
+  }
+}
+
+@media (min-width:320px) and (max-width:640px)  {
+  .form-title {
+    font-size: 16px;
+    margin-top: -25px;
+  }
+
+  .modal-window {
+    width: 325px;
+    height: 570px;
+  }
+
+  .radio-group {
+    margin-top: -5px;
+    margin-bottom: 25px;
+  }
+
+  select, textarea, .send {
+    width: 275px;
+  } 
+}
+
